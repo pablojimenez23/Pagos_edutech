@@ -12,7 +12,7 @@ public class PagosEdutechApplication {
 
     public static void main(String[] args) {
         // Cambiado para apuntar a la carpeta "wallet" en la raíz del proyecto / contenedor
-        Path walletPath = Paths.get("wallet");
+        Path walletPath = Paths.get("Wallet");
         System.setProperty("oracle.net.tns_admin", walletPath.toAbsolutePath().toString());
         System.out.println("[MAIN] TNS_ADMIN configurado en: " + walletPath.toAbsolutePath());
 
